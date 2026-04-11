@@ -17,6 +17,14 @@ const projectsData = [
     liveLink: "https://anime-blog-platform.vercel.app/",
     githubLink: "https://github.com/ranel1442/anime-blog-platform",
   },
+    {
+    id: 8,
+    title: "Timeline Music Game",
+    description: "A hybrid physical/digital card game for Israeli music history. Includes a PWA with a QR scanner and a custom automated print engine for physical card generation.",
+    techStack: ["React", "TypeScript", "Supabase", "PWA", "Vite"],
+    liveLink: "https://music-cards-game.vercel.app/",
+    githubLink: "https://github.com/ranel1442/timeline-music-game",
+  },
   {
     id: 4,
     title: "FileShrink",
@@ -57,14 +65,7 @@ const projectsData = [
     liveLink: null,
     githubLink: "https://github.com/ranel1442/rsvp-system-fullstack",
   },
-  {
-    id: 3,
-    title: "Timeline Music Game",
-    description: "A hybrid physical/digital card game for Israeli music history. Includes a PWA with a QR scanner and a custom automated print engine for physical card generation.",
-    techStack: ["React", "TypeScript", "Supabase", "PWA", "Vite"],
-    liveLink: "https://music-cards-game.vercel.app/",
-    githubLink: "https://github.com/ranel1442/timeline-music-game",
-  }
+
 ];
 
 function App() {
