@@ -18,7 +18,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/anime-blog-platform",
   },
   {
-    id: 3,
+    id: 4,
     title: "FileShrink",
     description: "A powerful, full-stack file compressor and converter. Independently processes PDFs, images, videos, and audio using robust open-source engines directly on the backend.",
     techStack: ["React", "TypeScript", "Node.js", "FFmpeg", "Ghostscript", "Docker"],
@@ -26,7 +26,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/FileShrink-App",
   },
   {
-    id: 4,
+    id: 5,
     title: "J.A.R.V.I.S AI Assistant",
     description: "A futuristic desktop assistant featuring system automation, web scraping, and Generative AI. Control your PC, manage files, and generate content seamlessly via voice or text.",
     techStack: ["Python", "Google Gemini AI", "System Automation", "Speech Recognition", "GUI"],
@@ -34,7 +34,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/jarvis-AI-Asistent3.0",
   },
   {
-    id: 5,
+    id: 6,
     title: "Compiler-in-C",
     description: "A custom compiler built in C that parses Assembly code. It validates syntax, pinpoints errors, and translates valid source code into binary and hexadecimal machine code formats.",
     techStack: ["C", "Assembly", "Compiler Design", "Data Structures"],
@@ -42,7 +42,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/Compiler-in-C",
   },
   {
-    id: 6,
+    id: 7,
     title: "Deep Sharingan",
     description: "A real-time computer vision system that detects Naruto hand signs using the YOLOX deep learning object detection model to simulate ninjutsu activation.",
     techStack: ["Python", "YOLOX", "TensorFlow", "OpenCV", "ONNX"],
@@ -50,7 +50,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/Naruto-Battle",
   },
   {
-    id: 7,
+    id: 8,
     title: "RSVP Management System",
     description: "A full-stack event management application for tracking guest RSVPs. Features real-time attendance dashboards and automated SMS reminders scheduled via Twilio.",
     techStack: ["React", "Node.js", "Prisma ORM", "PostgreSQL", "Twilio API"],
@@ -58,7 +58,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/rsvp-system-fullstack",
   },
   {
-    id: 8,
+    id: 3,
     title: "Timeline Music Game",
     description: "A hybrid physical/digital card game for Israeli music history. Includes a PWA with a QR scanner and a custom automated print engine for physical card generation.",
     techStack: ["React", "TypeScript", "Supabase", "PWA", "Vite"],
