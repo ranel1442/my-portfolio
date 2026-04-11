@@ -56,6 +56,14 @@ const projectsData = [
     techStack: ["React", "Node.js", "Prisma ORM", "PostgreSQL", "Twilio API"],
     liveLink: null,
     githubLink: "https://github.com/ranel1442/rsvp-system-fullstack",
+  },
+  {
+    id: 8,
+    title: "Timeline Music Game",
+    description: "A hybrid physical/digital card game for Israeli music history. Includes a PWA with a QR scanner and a custom automated print engine for physical card generation.",
+    techStack: ["React", "TypeScript", "Supabase", "PWA", "Vite"],
+    liveLink: "https://music-cards-game.vercel.app/",
+    githubLink: "https://github.com/ranel1442/timeline-music-game",
   }
 ];
 
@@ -63,14 +71,12 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100 font-sans selection:bg-blue-500/30">
       
-      {/* Hero Section - ללא ה-Navbar */}
       <main className="pt-20 pb-16 px-6 max-w-6xl mx-auto">
         <section id="about" className="flex flex-col items-center text-center space-y-6 mb-32 mt-12">
           <h2 className="text-5xl md:text-7xl font-extrabold tracking-tight">
             Hi, I'm <span className="text-blue-500">Ranel</span>
           </h2>
           
-          {/* תיאור מקצועי ומעודכן שמשקף את היכולות האמיתיות שלך */}
           <p className="text-xl md:text-2xl text-gray-400 max-w-3xl leading-relaxed">
             Computer Science Student at the Open University & Software Developer. 
             I build intelligent full-stack web applications, system automations, and complex software solutions.
@@ -83,13 +89,11 @@ function App() {
           </div>
         </section>
 
-        {/* Projects Section */}
         <section id="projects" className="py-16 scroll-mt-10">
           <h3 className="text-3xl font-bold mb-10 border-b border-gray-800 pb-4 text-center md:text-left">
             Featured <span className="text-blue-500">Projects</span>
           </h3>
           
-          {/* Projects Grid Container */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projectsData.map((project) => (
               <div key={project.id} className="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex flex-col hover:border-blue-500/50 hover:shadow-lg hover:shadow-blue-500/10 transition-all group">
@@ -100,7 +104,6 @@ function App() {
                   {project.description}
                 </p>
                 
-                {/* Tech Stack Tags */}
                 <div className="flex flex-wrap gap-2 mb-6 justify-center md:justify-start">
                   {project.techStack.map((tech, index) => (
                     <span key={index} className="bg-gray-800/50 border border-gray-700 text-blue-300 text-xs px-2.5 py-1 rounded-md">
@@ -109,7 +112,6 @@ function App() {
                   ))}
                 </div>
 
-                {/* Links */}
                 <div className="flex space-x-4 mt-auto pt-4 border-t border-gray-800/50 justify-center md:justify-start">
                   {project.liveLink && (
                     <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-white bg-blue-600/20 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-lg transition-colors flex items-center gap-2">
@@ -130,7 +132,6 @@ function App() {
         </section>
       </main>
 
-      {/* Footer */}
       <footer id="contact" className="border-t border-gray-800 mt-20 py-10 text-center text-gray-500 text-sm">
         <p>© {new Date().getFullYear()} Designed and built by RSS Web Development.</p>
         <p className="mt-1">All rights reserved.</p>
