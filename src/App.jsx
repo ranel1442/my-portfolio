@@ -3,6 +3,14 @@ import React from 'react';
 const projectsData = [
   {
     id: 1,
+    title: "Personal NAS Cloud",
+    description: "A fully custom, secure Network Attached Storage interface. Features chunked file streaming, a global recursive search engine, real-time hardware monitoring, and zero-trust Cloudflare tunnel architecture.",
+    techStack: ["Next.js", "Node.js", "Tailwind CSS", "Docker", "TrueNAS"],
+    liveLink: "https://ranel-nas.site/",
+    githubLink: "https://github.com/ranel1442/Nas-server-aplication",
+  },
+  {
+    id: 2,
     title: "Yomi-AI",
     description: "An advanced, AI-powered platform for learning Japanese. Features dynamic flashcards, personalized AI stories, and neural text-to-speech for full immersion.",
     techStack: ["Next.js", "Node.js", "Supabase", "Tailwind CSS", "Google Cloud TTS"],
@@ -10,15 +18,15 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/Yomi-ai",
   },
   {
-    id: 2,
+    id: 3,
     title: "AnimeBlog",
     description: "A fully automated, AI-driven anime community. Features autonomous news scraping, auto-generated Instagram Reels with virtual avatars, and an interactive user forum.",
     techStack: ["Next.js", "Node.js", "MongoDB", "Gemini AI", "Azure TTS", "Tailwind CSS"],
     liveLink: "https://anime-blog-platform.vercel.app/",
     githubLink: "https://github.com/ranel1442/anime-blog-platform",
   },
-    {
-    id: 8,
+  {
+    id: 4,
     title: "Timeline Music Game",
     description: "A hybrid physical/digital card game for Israeli music history. Includes a PWA with a QR scanner and a custom automated print engine for physical card generation.",
     techStack: ["React", "TypeScript", "Supabase", "PWA", "Vite"],
@@ -26,7 +34,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/timeline-music-game",
   },
   {
-    id: 4,
+    id: 5,
     title: "FileShrink",
     description: "A powerful, full-stack file compressor and converter. Independently processes PDFs, images, videos, and audio using robust open-source engines directly on the backend.",
     techStack: ["React", "TypeScript", "Node.js", "FFmpeg", "Ghostscript", "Docker"],
@@ -34,7 +42,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/FileShrink-App",
   },
   {
-    id: 5,
+    id: 6,
     title: "J.A.R.V.I.S AI Assistant",
     description: "A futuristic desktop assistant featuring system automation, web scraping, and Generative AI. Control your PC, manage files, and generate content seamlessly via voice or text.",
     techStack: ["Python", "Google Gemini AI", "System Automation", "Speech Recognition", "GUI"],
@@ -42,7 +50,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/jarvis-AI-Asistent3.0",
   },
   {
-    id: 6,
+    id: 7,
     title: "Compiler-in-C",
     description: "A custom compiler built in C that parses Assembly code. It validates syntax, pinpoints errors, and translates valid source code into binary and hexadecimal machine code formats.",
     techStack: ["C", "Assembly", "Compiler Design", "Data Structures"],
@@ -50,7 +58,7 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/Compiler-in-C",
   },
   {
-    id: 7,
+    id: 8,
     title: "Deep Sharingan",
     description: "A real-time computer vision system that detects Naruto hand signs using the YOLOX deep learning object detection model to simulate ninjutsu activation.",
     techStack: ["Python", "YOLOX", "TensorFlow", "OpenCV", "ONNX"],
@@ -58,14 +66,13 @@ const projectsData = [
     githubLink: "https://github.com/ranel1442/Naruto-Battle",
   },
   {
-    id: 8,
+    id: 9,
     title: "RSVP Management System",
     description: "A full-stack event management application for tracking guest RSVPs. Features real-time attendance dashboards and automated SMS reminders scheduled via Twilio.",
     techStack: ["React", "Node.js", "Prisma ORM", "PostgreSQL", "Twilio API"],
     liveLink: null,
     githubLink: "https://github.com/ranel1442/rsvp-system-fullstack",
   },
-
 ];
 
 function App() {
